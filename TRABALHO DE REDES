@@ -1,0 +1,42 @@
+GUILHERME ZANZOTI DE SOUSA BARBOSA - 123634
+
+Questão 01:
+I - A afirmação está parcialmente correta. A camada responsável pela detecção/correção de erros é de Enlace de Dados.
+II - Correto, a camada de Enlace não é responsável por compactar os dados.
+III - A afirmativa está correta, a função da camada de transporte é assegurar comunicação de ponta a ponta de forma confiável e eficaz.
+
+Questão 02:
+As informações fornecidas sobre o Modelo OSI e o Modelo TCP/IP estão precisas. Ambos os modelos diferem em termos de abordagem e complexidade, sendo o Modelo OSI mais detalhado e o Modelo TCP/IP mais pragmático e amplamente adotado.
+
+Questão 03:
+a) As topologias de rede mencionadas estão certas: estrela, barramento, anel, árvore, malha/mesh e híbrida.
+b) A escolha da topologia de rede depende de vários fatores, e muitas vezes uma abordagem combinada de diferentes topologias é adotada para atender às necessidades específicas da rede.
+
+Questão 04:
+I - Correto.
+II - Errado. Uma Metropolitan Area Network (MAN) é uma rede de área metropolitana, não uma Rede de Área Metropolitana.
+III - Incorreto. Uma Wide Area Network (WAN) é uma rede de área ampla, não uma Rede de Área Ampla.
+
+Questão 05:
+As informações fornecidas sobre o IPv4 e o IPv6 estão precisas. O IPv6 foi desenvolvido devido à exaustão do espaço de endereçamento do IPv4 e traz várias melhorias em relação ao IPv4, incluindo um espaço de endereçamento muito maior e recursos avançados de segurança e privacidade
+
+Questão 06 - Correto, o intervalo válido para cada bloco de um endereço de IP é de 0 a 255. Portanto, é necessário ajustar o segundo e o último bloco, que possuem valores acima de 255.
+
+Questão 07 - IP: 192.128.100.15 e em binário = 11000000.10101000.01100100.00001111
+Máscara de sub-rede: 255.255.0.0 e em binário = 11111111.11111111.00000000.00000000
+
+Questão 08 - IP em binário = 11001000.10000000.10100100.11100010
+Máscara de sub-rede: 255.255.255.192 e em binário = 11111111.11111111.11111111.11000000
+AND 11001000.10000000.10100100.11100010
+11111111.11111111.11111111.11000000
+= 11001000.10000000.11000000 
+= 200.128.164.192
+
+Questão 09 - a) 11111111.11111111.11111111.11110000 - Logo, a máscara de sub-rede = 255.255.255.240
+b) 2^n - 2 = 2^4 - 2 = 16-2 = 14 hosts.
+c) 192.168.1.15
+
+Questão 10 - 2^n - 2 ≥ 50 = 2^6 - 2 = 62 hosts.
+32 - 6 = 26 bits
+255.255.255.192 ou /26
+
